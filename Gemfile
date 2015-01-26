@@ -46,3 +46,4 @@ gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-4-stable'
 gem 'spree_i18n', github: 'spree-contrib/spree_i18n', branch: '2-4-stable'
 gem 'rails-i18n', '~> 4.0.0' # For 4.0.x
 gem 'globalize'
+gem 'spree_fancy', :github => 'spree/spree_fancy', :branch => '2-4-stable'
