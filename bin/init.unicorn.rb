@@ -2,7 +2,7 @@
 require "tmpdir"
 
 APP_NAME = "tmall"
-APP_PATH = "/opt/www/tmall"
+APP_PATH = "/opt/www/current"
 # APP_PATH = File.expand_path("../../", __FILE__)
 UNICORN_RAILS = "unicorn"
 UNICORN_CONF = "#{APP_PATH}/config/unicorn.rb"
