@@ -14,7 +14,7 @@ class Runner
 
     def start
       Dir.chdir "#{APP_PATH}"
-      system "#{UNICORN_RAILS} -D -E production -c #{UNICORN_CONF}"
+      system "bundle exec #{UNICORN_RAILS} -D -E production -c #{UNICORN_CONF}"
     end
 
     def reload
